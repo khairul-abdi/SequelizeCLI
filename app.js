@@ -1,9 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-// const deptModel = require('./models').department
-// const empModel = require('./models').emp
-const deptModel = require('./models/department')
-const empModel = require('./models/emp')
+const deptModel = require('./models').department
+const empModel = require('./models').emp
 
 const app = express()
 
